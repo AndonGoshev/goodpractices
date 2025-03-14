@@ -1,5 +1,5 @@
 #contacts-wrapper {
-    margin: 5em 0;
+    margin: 6em 0;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -23,11 +23,12 @@
     display: flex;
     align-items: center;
     justify-content: start;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
     background-color: #445771;
     border-radius: 10px;
     color: #fff;
     padding: 2em;
+    overflow: hidden;
 }
 
 #contacts-phone {
@@ -148,7 +149,7 @@
     border-radius: 10px;
     /*border: 2px solid #e6e6e6;*/
     height: 3em;
-    background-color: #445771;
+    background-color: #407a3d;
     color: #fff;
     font-weight: bold;
     text-align: center;
@@ -157,5 +158,5 @@
 
 #contact-form-ct-inner form button:hover {
     cursor: pointer;
-    background-color: #183255;
+    background-color: #2d592b;
 }
