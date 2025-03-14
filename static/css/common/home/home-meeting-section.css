@@ -1,0 +1,49 @@
+#home-meeting-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home-meeting-container {
+    width: 95%;
+    display: flex;
+    align-items: center;
+}
+
+#meeting-left-ct {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #e1e1e1;
+    border-radius: 10px;
+    padding: 1em;
+    background-color: #ffffff;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+#meeting-image {
+    width: 50%;
+    height: 20em;
+}
+
+#meeting-image img {
+    width: 100%;
+    height: 100%;
+}
+
+
+#meeting-right-ct {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#meeting-text-ct {
+    font-size: 1.2em;
+    width: 85%;
+}

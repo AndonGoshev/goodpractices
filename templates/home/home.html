@@ -1,0 +1,21 @@
+{% extends 'base/base.html' %}
+
+{% block title %}
+    Добри Практики
+{% endblock %}
+
+{% block content %}
+
+    <div id="home-wrapper">
+
+        {% include 'home/hero-section.html' %}
+
+        {% include 'home/home-carousel.html' %}
+
+        {% include 'home/meeting-section.html' %}
+    
+        {% include 'home/pricing.html' %}
+
+    </div>
+
+{% endblock %}
