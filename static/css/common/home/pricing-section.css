@@ -19,3 +19,19 @@
     font-size: 1.2em;
     gap: 0.5em;
  }
+
+@media (max-width: 570px) {
+    #pricing-wrapper {
+        padding: 1em;
+        margin-bottom: 3em;
+    }
+
+     #pricing-wrapper h2 {
+         font-size: 1.3em;
+     }
+
+     #pricing-wrapper p {
+         font-size: 0.9em;
+     }
+
+}

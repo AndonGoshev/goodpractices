@@ -17,3 +17,15 @@
     text-decoration: none;
     font-weight: 500;
 }
+
+@media (max-width: 570px) {
+
+    #header-nav {
+        gap: 1em;
+    }
+
+    #header-nav li {
+        font-size: 0.7em;
+    }
+
+}

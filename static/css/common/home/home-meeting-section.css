@@ -47,3 +47,21 @@
     font-size: 1.2em;
     width: 85%;
 }
+
+
+@media (max-width: 570px) {
+
+    #meeting-left-ct {
+        display: none;
+    }
+
+    #meeting-right-ct {
+        font-size: 0.9em;
+        width: 100%;
+    }
+
+    #meeting-right-ct h1 {
+        font-size: 1.5em;
+    }
+
+}

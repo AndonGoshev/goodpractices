@@ -66,3 +66,33 @@ footer {
 #footer-second-row p {
     color: #131313;
 }
+
+
+@media (max-width: 570px) {
+
+    #footer-left-nav {
+        justify-content: flex-start;
+    }
+
+    #f-logo {
+        width: 10em;
+    }
+
+    #footer-right-nav {
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    #footer-right-nav a {
+        font-size: 0.8em;
+    }
+
+    #footer-right-nav a img {
+        width: 1.5em;
+    }
+
+    #footer-second-row p {
+        font-size: 0.5em;
+    }
+
+}

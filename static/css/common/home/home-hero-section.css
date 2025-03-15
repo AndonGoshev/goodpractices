@@ -6,6 +6,7 @@
 }
 
 #home-hero-container {
+    position: relative;
     width: 95%;
     display: flex;
     align-items: center;
@@ -79,4 +80,45 @@
     width: 2em;
     height: 2em;
     margin-right: 0.5em;
+}
+
+
+@media (max-width: 560px) {
+    #hero-left-ct {
+        width: 100%;
+        z-index: 1;
+        gap: 0;
+    }
+
+    #hero-text-ct {
+        width: 100%;
+        padding: 1em;
+    }
+
+    #hero-left-ct h1 {
+        font-size: 1.5em;
+    }
+
+    #hero-left-ct p {
+        font-size: 0.9em;
+    }
+
+    #hero-right-ct {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        opacity: 0.1;
+    }
+
+    #hero-image {
+        width: 100%;
+        height: 120%;
+    }
+
+    #hero-actions {
+        width: 100%;
+        flex-direction: column;
+        gap: 1em;
+    }
+
 }
