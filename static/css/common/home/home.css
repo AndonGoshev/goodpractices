@@ -16,3 +16,10 @@
     }
 
 }
+
+
+@media (max-width: 1250px) {
+    #home-wrapper {
+        gap: 3em;
+    }
+}

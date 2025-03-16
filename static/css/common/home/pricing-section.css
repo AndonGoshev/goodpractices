@@ -35,3 +35,9 @@
      }
 
 }
+
+@media (max-width: 1200px) {
+    #pricing-ct {
+        width: 100%;
+    }
+}

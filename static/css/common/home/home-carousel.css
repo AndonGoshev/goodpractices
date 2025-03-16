@@ -66,3 +66,13 @@
     }
 
 }
+
+
+@media (max-width: 1250px) {
+
+    #service-cards {
+        flex-wrap: wrap;
+        gap: 2em;
+    }
+
+}

@@ -23,5 +23,17 @@
     font-size: 3em;
     color: #112D4E;
     z-index: 1;
-    text-shadow: 2px 2px 8px rgba(255, 255, 255, 5);
+}
+
+@media (max-width: 570px) {
+
+    #services-hero-wrapper h1 {
+        font-size: 2.3em;
+    }
+
+    #services-hero-wrapper {
+        height: 8em;
+        background-color: #e4e7ef;
+    }
+
 }

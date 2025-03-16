@@ -160,3 +160,53 @@
     cursor: pointer;
     background-color: #2d592b;
 }
+
+
+@media (max-width: 700px) {
+
+
+    #contacts-wrapper {
+        margin: 2em 0;
+    }
+
+    #contacts-ct {
+        flex-direction: column;
+        justify-content: center;
+        gap: 3em;
+        width: 90%;
+    }
+
+    #contacts {
+        position: relative;
+        top: auto;
+        left: auto;
+        width: 100%;
+        transform: none;
+    }
+
+    #contacts-inner-ct {
+        z-index: 2;
+    }
+
+    #contacts-phone {
+        z-index: 0;
+    }
+
+    #contact-form-ct {
+        width: 100%;
+    }
+
+    #contacts-form-left-ct {
+        display: none;
+    }
+
+    #contact-form-ct-inner {
+        width: 100%;
+        padding: 2em 0 ;
+    }
+
+    #contact-form-ct {
+        border-radius: 10px;
+    }
+
+}

@@ -122,3 +122,33 @@
     }
 
 }
+
+
+@media (max-width: 1250px) {
+
+    #home-hero-container {
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    #hero-left-ct {
+        width: 95%;
+    }
+
+    #hero-text-ct {
+        width: 100%;
+    }
+
+    #hero-actions {
+        width: 100%;
+    }
+
+    #hero-right-ct {
+        width: 95%;
+    }
+
+    #hero-image {
+        object-fit: cover;
+    }
+
+}

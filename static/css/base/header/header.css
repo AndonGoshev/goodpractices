@@ -24,3 +24,18 @@ header {
         align-items: flex-end;
     }
 }
+
+@media (max-width: 1200px) {
+
+    header {
+
+        padding: 1em;
+
+    }
+
+    #header-wrapper {
+        gap: 3em;
+        align-items: flex-end;
+    }
+
+}

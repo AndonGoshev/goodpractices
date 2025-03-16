@@ -65,3 +65,16 @@
     }
 
 }
+
+
+@media (max-width: 900px) {
+
+    #meeting-left-ct {
+        display: none;
+    }
+
+    #meeting-right-ct {
+        width: 100%;
+    }
+
+}
