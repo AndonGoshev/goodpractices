@@ -54,6 +54,15 @@
 
 
 
+@media (max-width: 1250px) {
+
+    #service-cards {
+        flex-wrap: wrap;
+        gap: 2em;
+    }
+
+}
+
 @media (max-width: 570px) {
 
     #service-cards {
@@ -62,17 +71,8 @@
     }
 
     .service-card {
-        width: 19em;
-    }
-
-}
-
-
-@media (max-width: 1250px) {
-
-    #service-cards {
-        flex-wrap: wrap;
-        gap: 2em;
+        width: 15em;
+        height: 15em;
     }
 
 }

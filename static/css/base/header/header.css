@@ -29,12 +29,12 @@ header {
 
     header {
 
-        padding: 1em;
+        padding: 1.5em;
 
     }
 
     #header-wrapper {
-        gap: 3em;
+        gap: 1em;
         align-items: flex-end;
     }
 
