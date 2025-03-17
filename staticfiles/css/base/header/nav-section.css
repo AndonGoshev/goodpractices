@@ -1,0 +1,38 @@
+#header-nav-section {
+    display: flex;
+    align-items: center;
+}
+
+#header-nav {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+
+#header-nav li {
+    color: #ededed;
+    font-size: 1.1em;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+@media (max-width: 1200px) {
+    #header-nav li {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 570px) {
+
+    #header-nav {
+        gap: 1em;
+    }
+
+    #header-nav li {
+        font-size: 0.6em;
+    }
+
+}

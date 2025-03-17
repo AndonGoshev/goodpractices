@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0 auto;
+    font: 18px/1.5 "Geologica", sans-serif;
+    min-height: 100%;
+    scroll-behavior: smooth;
+}
+
+.site {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    flex: 1;
+    /* width: 100%;*/
+    /*max-width: 100%;*/
+}
+
+main {
+    min-height: 100vh;
+    color: #404040;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #112D4E;
+}

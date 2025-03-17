@@ -1,0 +1,41 @@
+header {
+    width: 100%;
+    padding: 1em 4.2em;
+    background-color: #112D4E;
+}
+
+#header-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5em;
+}
+
+@media (max-width: 570px) {
+    header {
+
+        padding: 1em;
+
+    }
+
+    #header-wrapper {
+        gap: 1em;
+        align-items: flex-end;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    header {
+
+        padding: 1.5em;
+
+    }
+
+    #header-wrapper {
+        gap: 1em;
+        align-items: flex-end;
+    }
+
+}

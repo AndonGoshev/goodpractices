@@ -1,0 +1,25 @@
+#home-wrapper {
+    padding: 5em 0 0 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8em;
+}
+
+
+@media (max-width: 570px) {
+
+    #home-wrapper {
+        padding: 1em 0 0 0;
+        gap: 2em;
+    }
+
+}
+
+
+@media (max-width: 1250px) {
+    #home-wrapper {
+        gap: 3em;
+    }
+}
